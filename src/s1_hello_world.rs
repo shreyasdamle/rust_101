@@ -1,5 +1,5 @@
 // Hello, world!
 
-pub fn hello_world() {
+pub fn run() {
     println!("Hello, world!");
 }

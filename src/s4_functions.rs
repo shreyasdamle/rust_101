@@ -1,5 +1,5 @@
 // Functions
-pub fn function() {
+pub fn run() {
     //Function within function
     fn greetings() {
         println!("Hello, there!");

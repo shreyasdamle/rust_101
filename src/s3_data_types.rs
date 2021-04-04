@@ -4,7 +4,7 @@ Rust is a statically typed language, which means that it must know the types of 
 however, the compiler can usually infer what type we want to use based on the value and how we use it.
 */
 
-pub fn data_type() {
+pub fn run() {
     //Scalar Types
 
     //Integer (u8, i8, u16, i16, u32, i32, u64, i64, u128, i128, isize, usize)

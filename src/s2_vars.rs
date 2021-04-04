@@ -1,7 +1,7 @@
 // Variables and Mutability
 // By default variables are immutable
 
-pub fn var() {
+pub fn run() {
     // immutable var
     let x = 5;
     println!("The value of x: {}", x);
