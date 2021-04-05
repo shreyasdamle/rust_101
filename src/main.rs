@@ -3,6 +3,7 @@ mod s2_vars;
 mod s3_data_types;
 mod s4_functions;
 mod s5_control_flow;
+mod s6_ownership;
 
 fn main() {
     //S1: Print 'Hello, world!`
@@ -19,4 +20,7 @@ fn main() {
 
     //S5: Control Flows
     s5_control_flow::run();
+
+    //S6: Ownership
+    s6_ownership::run();
 }

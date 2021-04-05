@@ -5,7 +5,7 @@ however, the compiler can usually infer what type we want to use based on the va
 */
 
 pub fn run() {
-    //Scalar Types
+    //Scalar Types (Stored on the stack)
 
     //Integer (u8, i8, u16, i16, u32, i32, u64, i64, u128, i128, isize, usize)
     // default is i32
@@ -35,7 +35,7 @@ pub fn run() {
     let e = '😀';
     println!("The value of c: {} and e: {}", c, e);
 
-    //Compound Types
+    //Compound Types (Stored on the stack)
 
     //Tuple (diff type and fixed length)
     let tup = (2, 's', true);
