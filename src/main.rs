@@ -4,6 +4,7 @@ mod s3_data_types;
 mod s4_functions;
 mod s5_control_flow;
 mod s6_ownership;
+mod s7_references_borrowing;
 
 fn main() {
     //S1: Print 'Hello, world!`
@@ -23,4 +24,7 @@ fn main() {
 
     //S6: Ownership
     s6_ownership::run();
+
+    //S7: References and Borrowing
+    s7_references_borrowing::run();
 }

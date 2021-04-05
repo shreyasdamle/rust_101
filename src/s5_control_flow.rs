@@ -1,4 +1,4 @@
-//Control Flow
+// Control Flow
 
 pub fn run() {
     // if expression
@@ -14,7 +14,7 @@ pub fn run() {
         println!("number is not divisible by 4, 3, and 2");
     }
 
-    //use if in a let statement
+    // use if in a let statement
     let condition = true;
     // each arm of the if must be of same type
     let number = if condition { 5 } else { 6 };
@@ -26,7 +26,7 @@ pub fn run() {
         break;
     }
 
-    //return values from loop
+    // return values from loop
     let mut counter = 0;
     let result = loop {
         counter += 1;
@@ -45,7 +45,7 @@ pub fn run() {
     }
     println!("LIFTOFF!!!");
 
-    //for loop
+    // for loop
     let a = [5, 4, 3, 2, 1];
 
     for element in a.iter() {

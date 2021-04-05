@@ -1,4 +1,4 @@
-//Ownership
+// Ownership
 /*
 Ownership rules:
 Each value in Rust has a variable that’s called its owner.
@@ -6,10 +6,10 @@ There can only be one owner at a time.
 When the owner goes out of scope, the value will be dropped.
 */
 pub fn run() {
-    //string literal (immutable)
+    // string literal (immutable)
     let sl = "World!";
 
-    //String type (mutable; stored on heap)
+    // String type (mutable; stored on heap)
     let mut sm = String::from("Hello, ");
     sm.push_str(sl);
     println!("{}", sm);
@@ -18,11 +18,11 @@ pub fn run() {
     let test_sl = sl;
     println!("{}, {}", sl, test_sl);
 
-    //this doesn't work (Rust will never automatically create “deep” copies)
+    // this doesn't work (Rust will never automatically create “deep” copies)
     // let test_sm = sm;
     // println!("{}, {}", sm, test_sm);
 
-    //if deep copy required, use clone
+    // if deep copy required, use clone
     let clone_sm = sm.clone();
     println!("{}, {}", sm, clone_sm);
 

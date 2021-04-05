@@ -1,6 +1,6 @@
 // Functions
 pub fn run() {
-    //Function within function
+    // Function within function
     fn greetings() {
         println!("Hello, there!");
     }
@@ -20,21 +20,21 @@ pub fn run() {
     println!("The value of get_diff: {}", get_diff);
 }
 
-//Function without params
+// Function without params
 fn no_param() {
     println!("Hello from no_param function!");
 }
 
-//Function with params
+// Function with params
 fn with_param(x: i32, y: bool) {
     println!("The value of x: {} and y: {}", x, y);
 }
 
-//Function with expression
+// Function with expression
 fn with_exp() {
     let x = 5;
 
-    //Expression
+    // Expression
     let y = {
         let x = 3;
         x * 2
